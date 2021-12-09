@@ -10,15 +10,15 @@
 	<h2>개인정보 입력 결과(EL)</h2>
 	<table>
 		<tr>
-			<td>성명</td>
+			<td>${ requestScope.person.name }</td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>성별</td>
+			<td>${ requestScope.person.gender }</td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>나이</td>
+			<td>${ requestScope.person.nai }</td>
 			<td></td>
 		</tr>
 	</table>

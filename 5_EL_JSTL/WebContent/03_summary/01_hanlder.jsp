@@ -11,7 +11,7 @@
 	<form name="personFrm" action="${ pageContext.request.contextPath }/handler.do" method="post">
 		<table>
 			<tr>
-				<td>성명</td>
+				<td>이름</td>
 				<td><input type="text" name="name"></td>
 			</tr>
 			<tr>

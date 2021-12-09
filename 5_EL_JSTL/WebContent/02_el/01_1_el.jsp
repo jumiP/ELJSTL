@@ -43,7 +43,7 @@
 		<input type="submit" value="전송">
 	</form>
 	<script>
-		window.onload = functino(){
+		window.onload = function(){
 			var name = document.getElementById("name");
 			name.addEventListener("blur", function(){
 				var user = document.getElementsByClassName("user");
